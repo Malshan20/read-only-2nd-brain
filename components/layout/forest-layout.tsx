@@ -4,7 +4,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Brain, Moon, Sun, Menu, X } from "lucide-react"
+import { Brain, Moon, Sun, Menu, X, ShoppingBag } from "lucide-react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
 import Image from "next/image"
@@ -66,6 +66,13 @@ export function ForestLayout({ children }: ForestLayoutProps) {
               >
                 Pricing
               </a>
+              <a
+                href="/shop"
+                className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors"
+              >
+                <ShoppingBag className="w-4 h-4" />
+                Shop
+              </a>
 
               <Link href="/auth/signin">
                 <Button
@@ -110,6 +117,13 @@ export function ForestLayout({ children }: ForestLayoutProps) {
                 >
                   Pricing
                 </a>
+                <a
+                href="/shop"
+                className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors"
+              >
+                <ShoppingBag className="w-4 h-4" />
+                Shop
+              </a>
                 <div className="flex space-x-2">
                   <Link href="/auth/signin">
                     <Button
