@@ -7,8 +7,8 @@ const PADDLE_WEBHOOK_SECRET = process.env.PADDLE_WEBHOOK_SECRET
 // Paddle Price IDs to your internal plan names
 const PADDLE_PRICE_ID_TO_TIER: Record<string, "Forest Guardian" | "Jungle Master"> = {
   // Updated type
-  pri_01jwg05p8gg4qdwjfra9mbpqxg: "Forest Guardian", // Updated value
-  pri_01jwg092pdtnhta6pdt1hr4hp5: "Jungle Master", // Updated value
+  pri_12354689: "Forest Guardian", // Updated value (example price ID)
+  pri_12354689: "Jungle Master", // Updated value (example price ID)
 }
 
 async function verifyPaddleSignature(request: NextRequest, rawBody: string) {

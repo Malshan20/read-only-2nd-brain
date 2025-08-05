@@ -11,8 +11,8 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
 
 const PADDLE_PRICE_ID_TO_TIER: Record<string, "Forest Guardian" | "Jungle Master"> = {
-  pri_01jwg05p8gg4qdwjfra9mbpqxg: "Forest Guardian",
-  pri_01jwg092pdtnhta6pdt1hr4hp5: "Jungle Master",
+  pri_12354689: "Forest Guardian", // Updated value (example price ID)
+  pri_12354689: "Jungle Master", // Updated value (example price ID)
 }
 
 interface PaddleTransactionItem {

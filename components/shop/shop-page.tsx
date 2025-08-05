@@ -91,7 +91,7 @@ export default function ShopPage() {
       window.Paddle.Checkout.open({
         items: [
           {
-            priceId: "pri_01k0rpwbpfe0hn0dqdc61kzp2m",
+            priceId: "pri_12354689", // Updated value (example price ID)
             quantity: 1,
           },
         ],

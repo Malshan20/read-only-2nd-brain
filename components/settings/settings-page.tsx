@@ -39,8 +39,8 @@ interface UserProfile {
 }
 
 const PADDLE_PRICE_IDS = {
-  "Forest Guardian": "pri_01jwg05p8gg4qdwjfra9mbpqxg",
-  "Jungle Master": "pri_01jwg092pdtnhta6pdt1hr4hp5",
+  "Forest Guardian": "pri_12354689", // Updated value (example price ID)
+  "Jungle Master": "pri_12354689", // Updated value (example price ID)
 }
 
 const SUBSCRIPTION_LIMITS = {

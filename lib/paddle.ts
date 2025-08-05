@@ -20,8 +20,8 @@ export const paddle = new Paddle(PADDLE_API_KEY, {
 })
 
 export const PADDLE_PRICE_IDS = {
-  FOREST_GUARDIAN: "pri_01jtt162w6ekf4pdrv520hn2gt",
-  JUNGLE_MASTER: "pri_01jwbjzscsb3abpxn7t5xfdxzr",
+  FOREST_GUARDIAN: "pri_12354689", // Updated value (example price ID)
+  JUNGLE_MASTER: "pri_12354689", // Updated value (example price ID)
 }
 
 // Maps Paddle Price IDs to your internal subscription tier names
